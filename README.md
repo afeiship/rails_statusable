@@ -1,4 +1,4 @@
-# RailsStatusable
+# rails_statusable
 Short description and motivation.
 
 ## Usage

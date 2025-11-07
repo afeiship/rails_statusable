@@ -1,0 +1,14 @@
+{
+  "name": "rails_statusable",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Short description and motivation.",
+ "scripts": {
+    "dev": "cd test/dummy && rails server",
+    "clean": "rm -rf *.gem",
+    "build": "gem build *.gemspec",
+    "pubpush": "gem push *.gem",
+    "release": "release-it"
+  },
+  "author": "afeiship"
+}
