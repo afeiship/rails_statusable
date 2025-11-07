@@ -1,16 +1,28 @@
-# rails-module-jwt
-> Jwt for rails.
+# RailsStatusable
+Short description and motivation.
 
-## usage
-```shell
-# 1. get token
-curl -X POST -d username="json" -d password="12345" http://localhost:3000/authentication
-# {"token":"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.Inpo1wX6SRfGe_c5jQyY0mxRe9dBbxwtOsSmPc8LOJw"}
+## Usage
+How to use my plugin.
 
-# 2. get
-curl --header "Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.Inpo1wX6SRfGe_c5jQyY0mxRe9dBbxwtOsSmPc8LOJw" http://localhost:3000/users
-# {"username":"json","email":"json@gmail.com"}
+## Installation
+Add this line to your application's Gemfile:
+
+```ruby
+gem "rails_statusable"
 ```
 
-## resources
-- https://www.jianshu.com/p/56467f890516
+And then execute:
+```bash
+$ bundle
+```
+
+Or install it yourself as:
+```bash
+$ gem install rails_statusable
+```
+
+## Contributing
+Contribution directions go here.
+
+## License
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
